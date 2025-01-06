@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: #0077cc;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #0077cc;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 20px;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.service:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
